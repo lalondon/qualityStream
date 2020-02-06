@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.io.PrintStream;
 import java.util.concurrent.TimeUnit;
 
 import static junit.framework.TestCase.assertEquals;
@@ -32,7 +33,6 @@ public class GoogleSearchTest {
 		searchbox.sendKeys("quality-stream Introducción a la automatización de pruebas de software");
 		searchbox.submit();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		System.out.printf("ingresa al link");
 		assertEquals("quality-stream Introducción a la automatización de pruebas de software - Buscar con Google",driver.getTitle());
 		driver.findElement(linkAutomation).click();
 
