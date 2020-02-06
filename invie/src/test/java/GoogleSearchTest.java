@@ -13,7 +13,7 @@ import static junit.framework.TestCase.assertEquals;
 public class GoogleSearchTest {
 
 	private WebDriver driver;
-	
+	//localizadores
 	By linkAutomation= By.partialLinkText("Quality stream introduccion a la automizacion de pruebas de ...");
 
 	@Before
