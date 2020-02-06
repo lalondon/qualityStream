@@ -35,7 +35,8 @@ public class GoogleSearchTest {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		assertEquals("quality-stream Introducción a la automatización de pruebas de software - Buscar con Google",driver.getTitle());
 		driver.findElement(linkAutomation).click();
-		System.out.println("creacion de una rama hotfix");
+		//System.out.println("creacion de una rama hotfix");
+
 
 		
 	}
