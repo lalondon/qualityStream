@@ -1,2 +1,2 @@
 # qualityStream
-primera automatizacion a una página de calidad mediante busqueda con google.
+Automatización de ingreso a una página de calidad mediante busqueda con google.
